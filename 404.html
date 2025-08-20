@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>页面未找到 · 404</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <main style="min-height:80vh;display:flex;align-items:center;justify-content:center;flex-direction:column;padding:2rem;text-align:center;">
+    <h1 style="font-size:clamp(2rem,4vw,3rem);margin:0">404</h1>
+    <p style="color:var(--muted)">抱歉，我们找不到你请求的页面。</p>
+    <p><a href="/" style="color:var(--accent)">返回首页</a></p>
+  </main>
+  <footer style="text-align:center;padding:1rem;color:var(--muted)">© <span id="year"></span></footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
